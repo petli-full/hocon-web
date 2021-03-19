@@ -1,0 +1,47 @@
+{
+  "name": "hocon-web",
+  "version": "0.0.9",
+  "description": "This is a Javascript library supporting the HOCON data format.",
+  "main": "dist/index.js",
+  "directories": {
+    "src": "src",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter list --require @babel/register --require babel-polyfill",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/petli-full/hocon-web"
+  },
+  "keywords": [
+    "HOCON",
+    "config",
+    "javascript",
+    "js",
+    "nodejs"
+  ],
+  "author": "petli-full",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petli-full/hocon-web/issues"
+  },
+  "homepage": "https://github.com/petli-full/hocon-web#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/register": "^7.13.8",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "webpack": "^5.25.1",
+    "webpack-cli": "^4.5.0"
+  }
+}
